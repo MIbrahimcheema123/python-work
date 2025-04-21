@@ -1,1 +1,5 @@
-print("hello")
+print("hello \n")
+print("my name is ibrahim")
+print(5)
+print("i study in class 7",end="[]")
+print("beautiful world")
