@@ -15,3 +15,6 @@ name=float(name)
 print(name)
 is_male=bool(is_male)
 print(is_male)
+str="my message to the world is hello"
+x=str[::-1]
+print(x)
