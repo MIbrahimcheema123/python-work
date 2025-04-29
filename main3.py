@@ -9,3 +9,12 @@ print("the sum of all tree height is",sum)
 # finding average of trees height
 average =sum/5
 print("average height of trees is",average)
+
+amount=int(input("enter the amount you want to withdraw"))
+note_1=amount//100
+note_2=(amount%100)//50
+note_3=((amount%100)%50)//10
+
+print("notes of 100",note_1)
+print("notes of 50",note_2)
+print("notes of 10",note_3)
