@@ -1,8 +1,19 @@
-# how to take profit
-actual_cost =float(input("enter the total cost of the thing :"))
-selling_cost =float(input("enter the sale cost of the thing :"))
-if (actual_cost<selling_cost) :
-    amount = selling_cost - actual_cost
-    print("total profit = {0}".format(amount))
-else:
-    print("No Profit!!!")
+# progarm to find percantage obtained in exams
+Maths = int(input("enter the number obtained in maths :"))
+English = int(input("enter the number obtained in english :"))
+Science = int(input("enter the number obtained in science :"))
+Urdu = int(input("enter the number obtained in urdu :"))
+Islamicstudies= input ("enter the number obtained in islamiat :")
+Quranictranslation= input ("enter the number obtained in quranic translation :")
+Geography = int(input("enter the number obtained in geogarphy :"))
+History = int(input("enter the number obtained in history :"))
+Ict = int(input("enter the number obtained in ict :"))
+Art = int(input("enter the number obtained in art :"))
+
+# next step is to add your marks you have obtained in papers
+sum = Maths + English  + Science + Urdu + Islamicstudies + Quranictranslation + Geography + History + Ict + Art
+
+perc = (sum/400)*100
+
+print(end="percentage mark = ")
+print(perc)
