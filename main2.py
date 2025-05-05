@@ -11,9 +11,9 @@ Ict = int(input("enter the number obtained in ict :"))
 Art = int(input("enter the number obtained in art :"))
 
 # next step is to add your marks you have obtained in papers
-sum = Maths + English  + Science + Urdu + Islamicstudies + Quranictranslation + Geography + History + Ict + Art
+sum = int(Maths + English + Science + Urdu + Islamicstudies + Quranictranslation + Geography + History + Ict + Art)
+print ("sum of  Maths,English,Science,Urdu,Islamicstudies,Quranictranslation,Geography,History,Ict,Art", sum)
+perc = (sum/700)*100
 
-perc = (sum/400)*100
-
-print(end="percentage mark = ")
+# print(end="percentage mark = ")
 print(perc)
