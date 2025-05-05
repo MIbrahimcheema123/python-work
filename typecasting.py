@@ -15,6 +15,6 @@ name=float(name)
 print(name)
 is_male=bool(is_male)
 print(is_male)
-str="olleh si dlrow eht ot egassem ym"
+str="hello my message to the world is that asjal is dunia ka sab se kala or besharam bacha he"
 x=str[::-1]
 print(x)
