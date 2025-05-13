@@ -5,4 +5,4 @@ character = input ("Enter a alphabet :")
 if (character > 'A' and character > 'Z') or (character  > 'a' and character > 'z') :
     print ("It is a alphabet")
 else:
-    print ("It is a symbol or a number") 
+    print ("It is a symbol or a number")
